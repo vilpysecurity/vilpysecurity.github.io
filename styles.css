@@ -1,0 +1,196 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #1a1a1a;
+}
+
+.navbar .logo h1 {
+    font-size: 24px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li a {
+    color: #bbb;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+    color: #fff;
+}
+
+.hero {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 150px 10%;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.cta-button {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #008c9e;
+}
+
+.services {
+    background: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.service-card {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: center;
+}
+
+.service-card h3 {
+    font-size: 24px;
+}
+
+.service-card p {
+    font-size: 18px;
+}
+
+.service-card img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.about {
+    background: #1a1a1a;
+    text-align: center;
+}
+
+.contact {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+}
+
+.contact-form label {
+    font-size: 18px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #444;
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #008c9e;
+}
+
+footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.hero {
+  background-image: url("cyber-attack-.webp");
+  background-size: cover;
+}
+
+
+
+
+
+/* Add this to your styles.css file */
+/* Add this to your styles.css file */
+.logo {
+    display: flex;
+    align-items: center; /* Vertically center the image and text */
+}
+
+.logo img {
+    width: 100px; /* Set a proper size for the image, adjust as necessary */
+    height: auto;
+    margin-right: -115px; /* Space between the image and the text */
+}
+
+.logo h1 {
+    font-size: 24px; /* Adjust the font size of the text to match the image size */
+    margin: 0; /* Remove any default margin from h1 */
+    white-space: nowrap; /* Prevent the text from wrapping to the next line */
+}
